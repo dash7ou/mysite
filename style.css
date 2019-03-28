@@ -1,0 +1,163 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+div{
+    display:block;
+}
+a{
+    text-decoration: none;
+}
+#nav-bar{
+    position: fixed;
+    max-width:2000px;
+    width:100%;
+    padding:20px;
+    background-color: #e0ebe8;
+    height:80px;
+}
+
+#nav-bar ul {
+    text-align: right;
+    width:100%;
+}
+nav ul li{
+    display:inline-block;
+    margin:60px;
+    margin-top:15px;
+    margin-bottom:20px;
+    color:#008080;
+}
+
+#welcome-section{
+    color:#333;
+    padding-top:250px;
+    text-align: center;
+    min-height:55vh;
+    background-color:#e0ebe8;
+    height:660px;
+}
+#welcome-section p{
+    color:darkgreen;
+    padding:10px;
+}
+#my_work{
+    margin:50px;
+    text-align:center;
+}
+#my_work h2{
+    text-align:center;
+    color:#008080;
+    font-weight:normal;
+}
+
+.project{
+    padding:15px;
+    margin:20px;
+    text-align:center;
+    width:calc(100/2);
+}
+
+.project div{
+    border:2px solid #333;
+    border-radius: 3px;
+    max-width:300px;
+    height:300px;
+    margin:20px;
+    margin-bottom:30px;
+}
+
+.project img{
+    width:100%;
+    height:85%;
+    border-bottom:2px solid #333;
+    padding-bottom:1px;
+}
+.project a{
+    color:#333;
+    text-align: center;
+}
+#first{
+    display:inline-block;
+    margin-right:50px;
+}
+#second{
+    display:inline-block;
+    margin-left:50px;
+}
+#showall{
+    width:200px;
+    height:50px;
+    padding:10px;
+    font-size:17px;
+    font-weight: bold;
+    background-color:#e0ebe8;
+    border:2px solid #90C695;
+    text-align: center;
+    border-radius: 3px;
+    margin:0 auto;
+    margin-bottom:50px;
+}
+#showall a{
+    color:#008080;
+}
+
+#showall:hover{
+    background: #ccc;
+}
+#showall a:hover{
+    color: green;
+}
+#contact{
+    text-align:center;
+    background-color:#83e383;
+    padding-top:200px;
+    height:660px;
+    
+}
+
+#contact h2{
+    padding:2px;
+    margin:2px;
+    font-size:30px;
+}
+.header{
+    margin-bottom:50px;
+}
+.link{
+    text-align: center;
+    padding:
+}
+
+.contact-details{
+    display:inline-block;
+    font-weight: bold;
+    border-radius: 100%;
+    border:2px solid #90C695;
+    color:#008080;
+    background: #e0ebe8;
+    margin:0 35px 45px 35px;
+    padding-top:35px;
+    width:100px;
+    height:100px;
+    text-align: center;
+    list-style-type: none;
+
+}
+.contact-details:hover {
+    background: #E4F1FE;
+    color: green;
+}
+
+footer{
+    background-color:#e0ebe8;
+    max-width:2000px;
+    width: 100%;
+    text-align:center;
+    padding:20px;
+    font-weight: bold;
+    height: 70px;
+    padding-top:30px;
+}
