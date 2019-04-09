@@ -15,7 +15,7 @@ a{
     max-width:2000px;
     width:100%;
     padding:20px;
-    background-color: #e0ebe8;
+    background-color: #26282785;
     height:80px;
 }
 
@@ -28,19 +28,28 @@ nav ul li{
     margin:60px;
     margin-top:15px;
     margin-bottom:20px;
-    color:#008080;
+    color:#d46607;
 }
 
 #welcome-section{
-    color:#333;
-    padding-top:250px;
+    color: #e3dddd;
+    padding-top: 250px;
     text-align: center;
-    min-height:55vh;
-    background-color:#e0ebe8;
-    height:660px;
+    min-height: 55vh;
+    background-color: #545551;
+    height: 660px;
+    /*opacity: 0.8;*/
+}
+#welcome-section h1{
+    font-size:40px;
+    margin : 0 auto;
+}
+.hea:hover{
+   /* transform: scale(2,2);*/
+
 }
 #welcome-section p{
-    color:darkgreen;
+    color:#86ca86;
     padding:10px;
 }
 #my_work{
@@ -112,7 +121,7 @@ nav ul li{
 }
 #contact{
     text-align:center;
-    background-color:#83e383;
+    background-color:#415141;
     padding-top:200px;
     height:660px;
     
@@ -152,12 +161,14 @@ nav ul li{
 }
 
 footer{
-    background-color:#e0ebe8;
-    max-width:2000px;
+    background-color: #757c75;
+    max-width: 2000px;
     width: 100%;
-    text-align:center;
-    padding:20px;
+    text-align: center;
+    padding: 20px;
     font-weight: bold;
-    height: 70px;
-    padding-top:30px;
+    height: 50px;
+    padding-top: 18px;
+    color:#eee;
+}
 }
