@@ -183,3 +183,12 @@ footer{
     padding-top: 18px;
     color:#eee;
 }
+
+@media screen and (max-width:959px){
+    #welcome-section{
+        width:100%;
+    }
+    #contener{
+        width:100%;
+    }
+}
