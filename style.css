@@ -42,13 +42,24 @@ nav ul li{
 }
 #welcome-section h1{
     font-size:40px;
-    margin : 0 auto;
+    margin-top:-30px
 }
-.hea:hover{
-   /* transform: scale(2,2);*/
+.about_me{
+    padding: 10px;
+    border: 1px solid #7a7878;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: #00000045;
+    width: 1270px;
+    margin-top: 20px;
+    color: #96a776;
+}
 
 }
-#welcome-section p{
+
+#welcome-section .p{
     color:#86ca86;
     padding:10px;
 }
@@ -170,5 +181,4 @@ footer{
     height: 50px;
     padding-top: 18px;
     color:#eee;
-}
 }
