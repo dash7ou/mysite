@@ -53,16 +53,17 @@ nav ul li{
     font-size: 20px;
     background-color: #00000045;
     width: 1270px;
-    margin-top: 20px;
+    margin-top: 44px;
     color: #96a776;
 }
 
-}
 
-#welcome-section .p{
+
+ .p{
     color:#86ca86;
     padding:10px;
 }
+
 #my_work{
     margin:50px;
     text-align:center;
